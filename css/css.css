@@ -1,0 +1,16 @@
+header h1{
+    text-align: center;
+}
+
+.catdata
+{
+    padding-bottom:30px;
+}
+
+.content .container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gaP: 50px;
+}

@@ -1,0 +1,32 @@
+<form action="[rp]?action=save" method="post">
+    <label>Добавить нового котенка</label>
+    <p>
+      <label for="name">кличка:</label>
+      <input type="text" name="name" id="name" required>
+    </p>
+    <p>
+      <label for="age">возраст:</label>
+      <input type="age" name="age" id="age" required>
+    </p>
+    <p>
+    <label for="sex">пол:</label>
+    <select name="sex" id="sex">
+        <option value="1">male</option>
+        <option value="2">female</option>
+    </select>
+    </p>
+
+    <p>
+        <label for="mother">Мать:</label>
+        <select name="mother" id="mother">
+            [motherlist]
+        </select>
+        </p>
+
+        <p>
+            [fatherslist]
+        </p>
+        
+
+    <button type="submit">Сохранить</button>
+  </form>

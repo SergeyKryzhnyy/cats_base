@@ -1,0 +1,31 @@
+<form action="[rp]?action=update&id=[id]" method="post">
+    <label>Изменить данные кота [name]</label>
+    <p>
+      <label for="name">кличка:</label>
+      <input type="text" name="name" id="name" value="[name]" required>
+    </p>
+    <p>
+      <label for="age">возраст:</label>
+      <input type="age" name="age" id="age" value="[age]" required>
+    </p>
+    <p>
+    <label for="sex">пол:</label>
+    <select name="sex" id="sex">
+      [sex]
+    </select>
+    </p>
+
+    <p>
+        <label for="mother">Мать:</label>
+        <select name="mother" id="mother">
+            [motherlist]
+        </select>
+        </p>
+
+        <p>
+            [fatherslist]
+        </p>
+        
+
+    <button type="submit">Сохранить</button>
+  </form>
