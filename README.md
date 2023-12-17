@@ -6,3 +6,4 @@
 - Точка входа - файл index.php
 - Конфиг для подключения к бд - classes/connectbd.php
 - Дамп базы в корне проекта.
+- Путь по умолчанию http://localhost/cats/, меняется в классе parse, метод getrootpath().
